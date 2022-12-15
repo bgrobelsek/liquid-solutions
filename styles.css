@@ -1,0 +1,316 @@
+/* Video background */
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+
+
+/* Body */
+body {
+  font-family: "Titillium Web", sans-serif;
+  color: rgb(236, 214, 180);
+  margin: 2rem;
+  font-size: 21px;
+  background-color: transparent;
+}
+
+/* Main */
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.landingLogoDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.landingLogoDiv a:hover {
+  color: rgb(245, 206, 147);
+  font-weight: bold;
+}
+
+.landingLogo {
+  animation: fadeIn 8s;
+  margin-top: 20%;
+}
+
+.landingLogo img {
+  width: 1000px;
+}
+
+.landingLogo a {
+  text-decoration: none;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 32px;
+  background-color: transparent;
+  color: rgb(245, 206, 147);
+  text-align: center;
+  background-color: transparent;
+}
+
+/* News */
+.news-content {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  padding-top: 10px;
+}
+
+.news-content img {
+  width: 300px;
+  height: 150px;
+  margin: 10px;
+}
+
+.about-video {
+  padding: 20px;
+  text-align: center;
+  width: "800"; 
+  height: "350";
+}
+
+/* Gallery */
+.gallery-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.gallery-content img {
+  width: 300px;
+  height: 150px;
+  margin: 10px;
+}
+
+@keyframes fadeIn { 
+  0% { opacity: 0; } 
+  100% { opacity: 1; }
+}
+
+/* Navigation bar */
+nav a {
+  color: rgb(245, 206, 147);
+  font-size: 30px;
+  font-family: "Titillium Web", sans-serif;
+  text-decoration: none;
+  margin-left: 5px;
+  margin: 5px;
+}
+nav a:hover {
+  color: black;
+  background: goldenrod;
+}
+
+nav {
+  margin: 2px;
+}
+
+/* Lists */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+/* Gradient lines */
+.gradient {
+  background: linear-gradient(
+    90deg,
+    rgba(121, 92, 9, 96) 0%,
+    rgba(2, 0, 36, 100) 100%
+  );
+  height: 2px;
+}
+
+.gradient2 {
+  background: linear-gradient(
+    90deg,
+    rgba(121, 92, 9, 96) 100%,
+    rgba(2, 0, 36, 100) 0%
+  );
+  height: 2px;
+}
+
+/* Images */
+.liquidGif {
+  border: 1px solid rgb(221, 177, 66);
+  float: left;
+  padding: 2px;
+  margin: 0px 10px 10px 0px;
+}
+
+.liquidGif p {
+  text-align: center;
+}
+
+.liquidGif img {
+  padding: 10px;
+}
+
+.myLogo {
+  width: 450px;
+  margin: 5px;
+}
+
+.contentImage {
+  border: 2px solid gold;
+}
+
+.news-article-picture {
+  border: 1px solid goldenrod;
+  float: left;
+  padding: 2px;
+  margin: 0px 10px 10px 0px;
+}
+
+.news-article-picture img {
+  width: 300px;
+  height: 150px;
+}
+
+.news-picture {
+  border: solid 1px goldenrod;
+}
+
+.news-picture p {
+  text-align: center;
+}
+
+/* News navigation */
+.newsNav {
+  display: flex;
+  flex-direction: row;
+}
+
+.newsGifs {
+  padding: 12px;
+  margin: 0px 10px 10px 0px;
+}
+
+.newsGifs img {
+  width: 350px;
+  height: 200px;
+}
+
+.newsContent a {
+  color: rgb(239, 172, 71);
+}
+
+.newsContent a:hover {
+  color: blueviolet;
+}
+
+/* Footer */
+.myFooter {
+  flex-basis: 20%;
+  text-align: center;
+}
+
+.myFooter ul {
+  display: inline-block;
+  margin: 5px;
+}
+
+.myFooter li {
+  margin: 12px;
+}
+
+.myFooter p {
+  color: rgba(231, 227, 207, 0.721);
+}
+
+span {
+  font-size: 45px;
+}
+
+.myFooter a {
+  color: rgba(214, 176, 21, 0.721);
+}
+
+.myFooter a :hover {
+  color: rgb(255, 255, 255);
+}
+
+/* Forms */ 
+.myForm input, textarea, select {
+  display: block;
+  width: 30%;
+  background-color: transparent;
+  padding: 5px 10px;
+  margin: 5px 0;
+  box-sizing: border-box;
+}
+
+.myForm select {
+  color: rgb(243, 203, 143);
+  background-color: black;
+}
+
+.myForm {
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.myForm textarea {
+  font-family: "Titillium Web", sans-serif;
+}
+
+.myForm button {
+  width: 30%;
+  background-color: goldenrod;
+  font-size: 20px;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: bold;
+}
+
+.myForm button:hover {
+  color: rgb(244, 226, 199);
+}
+
+
+/* Utils */
+html {
+  scroll-behavior: smooth;
+}
+
+.anchor-tag a {
+  text-decoration: none;
+  color: rgb(245, 206, 147);
+}
+
+.anchor-tag a:hover {
+  color: blueviolet;
+}
+
+.dosbox {
+  text-align: center;
+}
+
+.dosbox-container {  
+  margin: auto;
+  width: 1000px; 
+  height: 700px; 
+}
+
+.dosbox-container > .dosbox-overlay { 
+  background: url(https://js-dos.com/cdn/DOOM.png); 
+}
