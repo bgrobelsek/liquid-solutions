@@ -7,5 +7,5 @@ as a background image for all pages. Every time you click a link the animation r
 
 The website is not responsive.
 
-You can visit the page @https://bgrobelsek.github.io/liquid-solutions/
+You can visit the page @ https://bgrobelsek.github.io/liquid-solutions/
 
